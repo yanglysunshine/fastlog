@@ -9,10 +9,10 @@
 
 Branch    | style | Coverage
 ----------|-------|----------
-master    |       | 
+master    | [![CircleCI](https://github.com/trunkszi/fastlog/blob/master/style.png)]     | 
 
 
-#example ConsoleLogger
+- example ConsoleLogger
 ```go
 	var flog FastLog = NewConsoleLogger("fastlog")
 	flog.Info("hello fastlog!!!")
@@ -29,7 +29,7 @@ master    |       |
 ```
 
 
-#example RotateLogger
+- example RotateLogger
 ```go
     var flog FastLog = NewRotateLogger("./fastlog", "fastlog", 1024*1024, 5)
 	flog.Info("hello fastlog!!!")
@@ -37,5 +37,6 @@ master    |       |
 	flog.Noticef("hello fastlog!!!")
 ```
 
-#LICENSE
+- LICENSE
+
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
